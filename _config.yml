@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: 서울대학교 보건대학원 예방의학교실
+email: yongjin93@snu.ac.kr
+address: 08826 서울시 관악구 관악로1 서울대학교 보건대학원 220동 756호
+phone: 02-880-2743
+logo: "/assets/images/logo.png"
+description: >- # this means to ignore newlines until "baseurl:"
+  서울대학교 보건대학원 예방의학교실은 예방의학의 교육과 연구를 선도하는 기관으로, 전공의 수련과정과 학위 과정을 병행하며 체계적인 교육을 제공합니다. 국내외 유수 기관과의 교류를 통해 학문적 발전을 도모하며, 배출된 전문의들은 국가 보건의료의 중추적 역할을 수행하고 있습니다.
+baseurl: "snuprev.com" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+## twitter_username: jekyllrb
+## github_username:  jekyll
+
+# Build settings
+theme: minima
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
